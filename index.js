@@ -9,7 +9,7 @@ const config = {
 };
 
 function handleLlinks() {
-  if (window.innerWidth <= 991) {
+  if (window.innerWidth <= 1200) {
     links.classList.toggle("visible");
   }
 }
@@ -24,6 +24,8 @@ window.addEventListener("scroll", function () {
 
 let observer = new IntersectionObserver(function (entries, self) {
   entries.forEach((entry) => {
+    console.log(entry.target.id)
+    console.log(entry.isIntersecting)
     if (entry.isIntersecting) {
       intersectionHandler(entry);
     }

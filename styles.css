@@ -151,7 +151,7 @@ section {
 .section__title {
   color: var(--grey);
   font-size: 35px;
-  margin-bottom: 30px;
+  margin-bottom: 5px;
   display: flex;
 }
 
@@ -203,10 +203,10 @@ section {
 .skill__item {
   font-size: 65px;
   color: var(--grey);
-  padding: 35px;
+  padding: 1px;
   transition: all 0.3s;
   min-width: 130px;
-  height: 180px;
+  height: 65px;
 }
 
 .skill__item img {
