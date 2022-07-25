@@ -189,28 +189,35 @@ section {
 
 .about__skills {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 10px;
+}
+
+.grid5 {
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr!important;
+}
+
+.grid5__title {
+  grid-column: span 5!important;
 }
 
 .skill__title {
   color: var(--grey);
-  grid-column: span 3;
-  text-align: left;
-  margin: 20px 0;
+  grid-column: span 4;
+  margin-top: 20px;
 }
 
 .skill__item {
-  font-size: 65px;
+  font-size: 60px;
   color: var(--grey);
-  padding: 1px;
+  padding: 35px;
   transition: all 0.3s;
   min-width: 130px;
-  height: 65px;
+  height: 75px;
 }
 
 .skill__item img {
-  max-height: 50px;
+  max-height: 60px;
   max-width: 100px;
 }
 .fa-node{
@@ -239,7 +246,7 @@ section {
 
 
 .skill__name {
-  font-size: 16px;
+  font-size: 12px;
   text-align: center;
 }
 

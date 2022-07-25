@@ -127,18 +127,18 @@
   }
 
   .skill__title {
-    grid-column: span 3;
+    grid-column: span 4;
   }
 
   .about__skills {
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
   }
 
   .skill__item {
-    font-size: 50px;
+    font-size: 60px;
     padding: 1px;
     min-width: 70px;
-    height: 60px;
+    height: 80px;
   }
 
   .services__grid,
